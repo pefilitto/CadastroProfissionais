@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Profissionais</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+              <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-4">Seja um voluntário da Saúde</span>
+              </a>
+        
+              <ul class="nav nav-pills">
+                <a href="cadastrados.html"><button type="submit" id="btn-header" class="btn btn-primary">Visualizar Cadastrados</button></a>
+              </ul>
+            </header>
+          </div>
+    </header>
+
+
+    <form class="form" id="formulario">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Exemplo: Pedro Correia Felitto" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">CPF</label>
+          <input type="text" class="form-control" placeholder="Exemplo: 111.111.111-11" id="cpf" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Exemplo: seuemail@gmail.com" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Telefone</label>
+            <input type="text" class="form-control" id="telefone" placeholder="Exemplo: (18) 99614-0996" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Profissao</label>
+            <input type="text" class="form-control" id="profissao" placeholder="Exemplo: Medico" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Especialidade</label>
+            <input type="text" class="form-control" id="especialidade" placeholder="Exemplo: Dermatologista" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Localizacao</label>
+            <input type="text" class="form-control" id="localizacao" placeholder="Exemplo: Presidente Prudente - SP" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Experiencia</label>
+            <input type="text" class="form-control" id="experiencia" placeholder="Exemplo: Santa Casa da Misericordia - 1 ano" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Registro</label>
+            <input type="text" class="form-control" id="registro" placeholder="Exemplo: CRM, CRO, Coren" aria-describedby="emailHelp" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Disponibilidade</label>
+            <input type="text" class="form-control" id="disponibilidade" placeholder="Exemplo: Segunda-Feira - 14h" aria-describedby="emailHelp" required>
+        </div>
+        
+        <button type="submit" id="botao-sucess" class="btn btn-primary">Cadastrar</button>
+      </form>  
+
+    
+    <script src="./modelo/modelo_profissional.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

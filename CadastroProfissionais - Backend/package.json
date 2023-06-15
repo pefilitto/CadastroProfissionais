@@ -1,0 +1,19 @@
+{
+  "name": "cadastroprofissionais",
+  "version": "1.0.0",
+  "description": "Cadastro de Profissionais",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Filitto",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.2",
+    "package": "^1.0.1"
+  },
+  "type": "module"
+}
